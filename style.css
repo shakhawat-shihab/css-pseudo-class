@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 32px;
+}
+p{
+    color: gray;
+}
+.different-style{
+    color: #FFB52E;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-bottom: 20px;
+}
+.flexible{
+    display: flex;
+}
+.top-section{
+    background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;
+}
+.image-style{
+    width:80%;
+}
+.button-design{
+    background-image: linear-gradient(to top right,#FF9B76,#FF7254);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.dream-section{
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin: 100px 0px ;
+}
+
+.experience-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    margin-bottom: 100px;
+}
+.experience-section .half-width{
+    margin:  0 5%;
+    box-shadow: 2px 2px 20px gray;
+}
+
+footer p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.experience-section .half-width:first-child{
+    border-left: 10px solid;
+    border-image:linear-gradient(#FF7254,#FF9B76);
+    border-image-slice: 1;
+}
+.experience-section .half-width:last-child{
+    border-left: 10px solid;
+    border-image:linear-gradient(#0019FF,#00EFFF);
+    border-image-slice: 1;
+}
+
+
+.top-section .half-width:nth-of-type(2){
+    background-color: teal;
+}
+.dream-section .half-width:nth-last-of-type(2){
+    background-color: teal;
+}
+
+
+
+.top-section h1:first-of-type{
+    background-color: thistle;
+}
+.dream-section h1:first-child{
+    background-color: thistle;
+}
+
+
+.top-section .button-design:last-child{
+    background-image:linear-gradient(to top right,red,blue) ;
+}
+
+.dream-section .button-design:last-child{
+    background-image:linear-gradient(to top right,red,blue) ;
+}
+
+
+.top-section p:nth-of-type(1){
+    color: #F78768;
+}
+.dream-section p:nth-of-type(1)
+{
+    color: #008080;
+}
+
+
+
+.top-section p:nth-last-of-type(1){
+    color: rosybrown;
+}
+
+.dream-section p:nth-last-of-type(1){
+    color: tomato;
+}
+
+
+
+.experience-section .half-width:nth-of-type(1) {
+    background-color: #4b77be;
+}
+
+.experience-section .half-width:nth-of-type(2) {
+    background-color: pink;
+}
+
+
+
+
+.experience-section .half-width:nth-of-type(1) p:nth-last-of-type(1){
+    color: blue;
+}
+.experience-section .half-width:nth-of-type(1) p:nth-last-of-type(2){
+    color: rebeccapurple;
+}
+
+
+
+.experience-section .half-width:nth-of-type(2) p:nth-of-type(1){
+    color: red;
+}
+.experience-section .half-width:nth-of-type(2) p:nth-of-type(2){
+    color: green;
+}
+
+
